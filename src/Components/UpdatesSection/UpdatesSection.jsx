@@ -59,7 +59,7 @@ const UpdatesSection = () => {
         <Container fluid className="py-5 updates-section text-start">
             <Container>
                 <Row>
-                    <Col md={6} className='d-flex justify-content-center flex-column updates-section-left'>
+                    <Col lg={6} md={6} className='d-flex justify-content-center flex-column updates-section-left'>
                         <h2 className="update-title update-title-left">2024 UPDATES</h2>
                         <p className="update-text update-text-left">
                             To increase our clients' sales revenue and push their average workflow estimates,
@@ -70,28 +70,28 @@ const UpdatesSection = () => {
                             & ultra-targeted telemarketing services in the near future. Here’s a sneak peek at what’s in the works.
                         </p>
                     </Col>
-                    <Col md={6} className="updates-list d-flex  flex-column">
-                        <div ref={ref1}>
+                    <Col lg={6} md={6} className="updates-list d-flex flex-column">
+                        <div ref={ref1} className="update-item mb-md-3">
                             <h5 className="update-title">Inbound – Lead Generation</h5>
                             <p className="update-location">Leads | Location Ontario, Canada - HVAC</p>
                             <ProgressBar animated now={progress1} variant="info" />
                         </div>
-                        <div ref={ref2}>
+                        <div ref={ref2} className="update-item mb-md-3">
                             <h5 className="update-title">Game-Changing Virtual Deals</h5>
                             <p className="update-location">Pre Closed | Location Ontario, Canada - HVAC, Solar</p>
                             <ProgressBar animated now={progress2} variant="info" />
                         </div>
-                        <div ref={ref3}>
+                        <div ref={ref3} className="update-item mb-md-3">
                             <h5 className="update-title">Highest Conversion – Money Making</h5>
                             <p className="update-location">Hot Leads | Location United States - Solar</p>
                             <ProgressBar animated now={progress3} variant="info" />
                         </div>
-                        <div ref={ref4}>
+                        <div ref={ref4} className="update-item mb-md-3">
                             <h5 className="update-title">Expanding – New Market</h5>
                             <p className="update-location">Hot Leads | Location Quebec, Canada - HVAC</p>
                             <ProgressBar animated now={progress4} variant="info" />
                         </div>
-                        <div ref={ref5}>
+                        <div ref={ref5} className="update-item mb-md-3">
                             <h5 className="update-title">Top Selling – Various Prices</h5>
                             <p className="update-location">New Tier "A", "B", "C" Leads | Location Ontario, Canada - HVAC</p>
                             <ProgressBar animated now={progress5} variant="info" />
