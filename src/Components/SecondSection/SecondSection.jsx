@@ -13,14 +13,14 @@ function SecondSection() {
       </div>
       <img src={arrowImage} className='arrowImage m-auto' alt="arrowImage" />
 
-      <div className='d-flex justify-content-around'>
-        <div class="history-section rounded-5">
+      <div className='d-flex justify-content-around align-items-center my-auto'>
+        <div class="history-section my-auto rounded-5">
           <h2 class="history-title">History</h2>
           <p class="history-content mt-3">
             As the leading company in the marketing industry with a passion for innovation and A+ excellence, Leadbull has become a household name in the digital sales world, known for its groundbreaking lead generation.
           </p>
         </div>
-        <div class="history-section rounded-5">
+        <div class="history-section rounded-5 my-auto">
           <h2 class="history-title">About us</h2>
           <p class="history-content mt-3">
           Leadbull stays current with the market trends aiming not only to thrive but also to enhance in such a rapidly evolving digital age, and to keep up its marketing services with the client’s expectations worldwide.

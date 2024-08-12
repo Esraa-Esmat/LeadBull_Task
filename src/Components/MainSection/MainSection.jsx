@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import './MainSection.css';
 import LeadBullImage from '../../assets/images/Group 407.png';
@@ -9,7 +9,7 @@ const MainSection = () => {
     const [text, setText] = useState('');
     const [isDeleting, setIsDeleting] = useState(false);
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const toRotate = ["Leads & Sales, Let's Prey ",""];
+    const toRotate = ["Leads & Sales, Let's Prey ", ""];
     const period = 2000;
 
     useEffect(() => {
@@ -44,17 +44,21 @@ const MainSection = () => {
             <Container className="align-items-center bannerContainer">
                 <TrackVisibility>
                     {({ isVisible }) => (
-                        <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                            <img src={LeadBullImage} alt="Lead Bull" />
-                            <h1 className="text-white mt-4">
-                                Ultra Targeted <span dataPeriod="1000" data-rotate={toRotate}>
-                                    <span className="wrap">{text}</span>
-                                </span>
-                            </h1>
-
-                            <img className="mt-5" src={logo2} alt="Logo 2" />
-
-                        </div>
+                        <Row className={isVisible ? "animate__animated animate__fadeIn text-center" : "text-center"}>
+                            <Col xs={12}>
+                                <img src={LeadBullImage} alt="Lead Bull" className="img-fluid" />
+                            </Col>
+                            <Col xs={12}>
+                                <h1 className="text-white mt-4">
+                                    Ultra Targeted <span dataPeriod="1000" data-rotate={toRotate}>
+                                        <span className="wrap">{text}</span>
+                                    </span>
+                                </h1>
+                            </Col>
+                            <Col xs={12}>
+                                <img className="mt-5 logo2" src={logo2} alt="Logo 2" />
+                            </Col>
+                        </Row>
                     )}
                 </TrackVisibility>
             </Container>

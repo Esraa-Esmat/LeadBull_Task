@@ -88,6 +88,10 @@
 }
 
 @media (max-width: 576px) {
+    /* .profile-section {
+        margin: 300px 0px;
+     
+    } */
     .profile-title {
         font-size: 32px; 
     }
