@@ -12,7 +12,7 @@ const Profile = () => {
                     <Row className="justify-content-center">
                         <Col md={4} sm={12} className="my-auto p-xl-5 p-md-0">
                             <Col md={12} sm={12} >
-                                <Card className="text-center bg-transparent text-white profile-box">
+                                <Card className="text-center bg-transparent text-white profile-box visionCard">
                                     <Card.Body>
                                         <h2 className="profile-box-title fw-bold rounded-5">Vision</h2>
                                         <Card.Text>
@@ -21,7 +21,7 @@ const Profile = () => {
                                     </Card.Body>
                                 </Card>
                             </Col>
-                            <Col md={12} sm={12} className='mt-xl-5 mt-md-2 p-xl-5 p-md-0'>
+                            <Col md={12} sm={12} className='mt-xl-5 mt-md-2 p-xl-5 p-md-0 valuesCard'>
                                 <Card className="text-center bg-transparent text-white profile-box">
                                     <Card.Body>
                                         <h2 className="profile-box-title fw-bold rounded-5">Values</h2>
@@ -32,8 +32,8 @@ const Profile = () => {
                                 </Card>
                             </Col>
                         </Col>
-                        <Col md={4} sm={12} className=" my-auto  p-xl-5 ps-md-2">
-                            <Card className="text-center bg-transparent text-white profile-box">
+                        <Col md={4} sm={12} className=" my-auto  p-xl-5 ps-md-2 missionCard">
+                            <Card className="text-center bg-transparent text-white profile-box ">
                                 <Card.Body>
                                     <h2 className="profile-box-title fw-bold rounded-5">Mission</h2>
                                     <Card.Text>

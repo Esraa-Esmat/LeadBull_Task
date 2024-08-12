@@ -1,7 +1,6 @@
 .profile-section {
     margin: 200px 0px;
     height: fit-content;
-
 }
 
 .profile-title {
@@ -17,7 +16,6 @@
     border: #027FCA solid .4px !important;
     padding: 20px;
     min-height: 200px;
-
 }
 
 .profile-box-title {
@@ -40,17 +38,15 @@
     margin-top: 10px;
 }
 
-
 .profile {
     background-image: url('path-to-your-background-image.jpg');
-    /* Update with the correct path */
     background-size: cover;
     background-position: center;
 }
 
-@media (max-width:768px) {
-    .profile-title {
 
+@media (max-width: 768px) {
+    .profile-title {
         font-size: 38px;
         font-weight: 600;
     }
@@ -62,9 +58,56 @@
     .profile-box-title {
         margin: 0;
         font-weight: 600;
+        font-size: 22px; 
     }
-    /* .profile-section .card-body .card-text{
-        font-size: 14px;
-    } */
 
+    .profile-box {
+        min-height: auto; 
+        padding: 15px;
+    }
+
+    .company-name {
+        font-size: 20px; 
+    }
+
+    .profile-image {
+        max-width: 100%; 
+    }
+
+    .profile-section {
+        margin: 100px 0px; 
+    }
+
+    .profile-section .card-body {
+        padding: 10px; 
+    }
+
+    .profile-box-title {
+        font-size: 20px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-title {
+        font-size: 32px; 
+    }
+
+    .profile-box {
+        padding: 10px; 
+    }
+
+    .company-name {
+        font-size: 18px; 
+    }
+
+    .profile-section {
+        margin: 50px 0px; 
+    }
+
+    .profile-box-title {
+        font-size: 18px; 
+    }
+    .visionCard, .valuesCard , .missionCard{
+        margin-bottom: 20px;
+    }
 }
