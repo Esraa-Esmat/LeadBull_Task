@@ -1,0 +1,39 @@
+.updates-section {
+    height: fit-content;
+    padding: 40px 20px;
+}
+
+.update-title {
+    color: #00aaff;
+    margin-bottom: 15px;
+}
+
+.update-text {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.updates-list {
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.updates-section-left {
+    padding-right: 100px !important;
+}
+
+.update-title-left {
+    font-size: 43px;
+    font-weight: normal;
+}
+
+.update-text-left {
+    font-size: 20px;
+    word-spacing: 3px;
+    margin: 20px 0px;
+}
+
+.progress-bar {
+    background-color: #00aaff;
+}

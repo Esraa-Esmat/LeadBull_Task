@@ -1,0 +1,49 @@
+.profile-section {
+    margin: 200px 0px;
+    height: fit-content;
+
+}
+
+.profile-title {
+    color: #027FCA;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.profile-box {
+    background: linear-gradient(to right, rgba(164, 0, 0, 0.4),rgba(1, 65, 103, 0.4));
+    border: #027FCA solid .4px !important;
+    padding: 20px;
+    min-height: 200px;
+    
+}
+
+.profile-box-title {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    max-width: 80%;
+}
+
+.company-name {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(2, 127, 202, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-top: 10px;
+}
+
+
+.profile {
+    background-image: url('path-to-your-background-image.jpg');
+    /* Update with the correct path */
+    background-size: cover;
+    background-position: center;
+}

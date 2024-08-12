@@ -1,0 +1,32 @@
+.dashboardContainer .card {
+    background-color: rgba(45, 45, 45, 0.8) !important;
+    color: #fff;
+    padding: 20px 0px ;
+}
+.inner-shadow {
+    box-shadow: inset 0 6px 12px rgba(255, 255, 255, 0.5), /* Increase the blur and opacity */
+                inset 0 -6px 12px rgba(255, 255, 255, 0.3); /* Add a second shadow for more depth */
+    background-color: rgba(45, 45, 45, 0.7); /* Background color for the card */
+    color: #fff; /* Text color for better contrast */
+}
+
+.dashboardContainer .card-title{
+    color: #027FCA !important;
+    font-weight: 700 !important;
+}
+
+.apexcharts-menu{
+    background-color: black !important;
+    color: #fff !important;
+}
+.countingNumber {
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(80, 205, 255, 1), rgba(2, 127, 202, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-arrow {
+   color: #2BA4DF;
+}
+

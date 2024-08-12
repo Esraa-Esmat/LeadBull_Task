@@ -1,0 +1,38 @@
+/* TestimonialCard.css */
+.testimonial-card {
+margin: 100px 0px ;
+    padding: 30px;
+    height: fit-content;
+    padding: 40px 20px;
+}
+
+.testimonial-content {
+
+    padding: 20px;
+
+}
+
+.testimonial-image img {
+    max-width: 70%;
+}
+
+.testimonial-card-right {
+    padding: 0px 70px !important;
+}
+
+.testimonial-name {
+    font-size: 1.5rem;
+    color: #00bfff;
+}
+
+.testimonial-title {
+    font-size: 20px;
+    color: #00bfff;
+    margin-bottom: 20px;
+}
+
+.testimonial-quote {
+    font-size: 23px;
+    line-height: 1.6;
+    word-spacing: 4px;
+}

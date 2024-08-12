@@ -1,0 +1,23 @@
+.SalesKeyMetrics {
+        height: fit-content;
+        margin: 200px 0px;
+
+}
+
+.SalesKeyMetrics-container {
+    background: url(../../assets/images/ngrab.svg) no-repeat center;
+    height: 600px;
+    background-size: 35%;
+    width: 75%;
+}
+
+.SalesKeyMetricsTitle{
+    font-size: 35px;
+    font-weight: 700;
+    color: #027FCA;
+}
+.SalesKeyMetrics-container-title{
+    padding-left: 15px;
+    font-weight: 700;
+    color: #027FCA;
+}

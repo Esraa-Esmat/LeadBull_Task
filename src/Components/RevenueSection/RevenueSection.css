@@ -1,0 +1,32 @@
+.revenue-section {
+    height: fit-content;
+    margin: 200px 0px;
+}
+.revenue-section-header{
+    margin-bottom: 100px;
+}
+.revenue-section-header div p a {
+    color: #027fca;
+    font-weight: 700;
+}
+
+.revenue-section-container {
+    background: linear-gradient(86.25deg, #53040B -5.42%, #0088D7 127.82%);
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+
+}
+
+.revenue-section-container1 {
+    background: rgba(2, 127, 202, 1);
+    width: 70%;
+    border-radius: 50px;
+
+}
+
+.border-left {
+    border-left: 1px solid rgba(2, 127, 202, 1)
+}

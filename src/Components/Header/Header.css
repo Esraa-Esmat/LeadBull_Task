@@ -1,0 +1,159 @@
+#root>div>nav>div>a>img {
+    width: 70%;
+    height: 70%;
+}
+
+nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+}
+
+
+
+.navBarLinks Nav.Link {
+    font-size: 60px;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link {
+    margin: 0px 20px;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link {
+    position: relative;
+    color: #fff !important;
+    letter-spacing: 0.8px;
+    padding: 0 22px;
+    font-size: 21px;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background: linear-gradient(to right, #53040B, #0088D7);
+    transition: width 1s ease-in-out;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover::before,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active::before {
+    width: 100%;
+}
+
+/* .loginBtn{
+
+    background-color: transparent;
+    border: #fff;
+} */
+
+span.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+.headerBtn {
+    position: relative;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+    font-size: 20px !important;
+}
+
+.headerBtn:hover {
+    color: #121212 !important;
+    font-weight: bold;
+}
+
+.headerBtn::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: width 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+.headerBtn:hover::before {
+    width: 100%;
+}
+
+nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+nav.navbar.scrolled {
+    padding: 0px 0;
+    background-color:rgba(6, 17, 19,.8);
+  }
+
+
+.BookAppointmentBtn {
+    background: linear-gradient(to right, #53040B, #0088D7);
+}
+
+#navbarScroll form button {
+    padding: 16px 32px;
+}
+
+@media (max-width: 1377px) {
+
+    nav.navbar .navbar-nav a.nav-link.navbar-link {
+        font-size: 18px;
+    }
+
+    #navbarScroll form button {
+        padding: 16px;
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 1235px) {
+
+    nav.navbar .navbar-nav a.nav-link.navbar-link {
+        font-size: 16px;
+    }
+
+    #navbarScroll form button {
+        padding: 10px;
+        font-size: 16px !important;
+    }
+}
+
+.navbar-toggler{
+    border: 1 solid #fff !important;
+    background-color: #fff !important;
+}
+
+@media (max-width:768px) {
+    nav.navbar {
+        padding: 0px 0;
+        background-color:rgba(6, 17, 19,.8);
+        
+    }
+
+    .navbar-collapse{
+        margin: 100px 0px ;
+    }
+}
+
+@media (max-width: 992px) {
+
+    nav.navbar .navbar-nav a.nav-link.navbar-link {
+        font-size: 13px;
+    }
+
+    #navbarScroll form button {
+        padding: 8px 12px;
+        font-size: 13px !important;
+    }
+}
