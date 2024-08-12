@@ -1,6 +1,6 @@
 import React from 'react';
 import './Testimonials.css';
-import leftImg from '../../assets/images/flash 2.png'
+import leftImg from '../../assets/images/flash 2.png';
 import { Col, Container, Row } from 'react-bootstrap';
 
 const Testimonials = () => {
@@ -8,13 +8,13 @@ const Testimonials = () => {
     <div className="testimonial-card">
       <Container className="testimonial-content m-auto">
         <Row>
-          <Col md={5} className='d-flex justify-content-center flex-column align-items-center'>
+          <Col xs={12} md={5} className='d-flex justify-content-center flex-column align-items-center'>
             <div className="testimonial-image">
               <img src={leftImg} alt="Testimonial" />
             </div>
           </Col>
 
-          <Col md={7} className='text-start testimonial-card-right'>
+          <Col xs={12} md={7} className='text-start testimonial-card-right'>
             <div className="testimonial-text">
               <h2 className="testimonial-name">WILLIAM JOHNSON</h2>
               <p className="testimonial-title">Regional Sales Director, Effective HVAC</p>
