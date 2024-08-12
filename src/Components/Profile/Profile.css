@@ -61,6 +61,10 @@
 
     .profile-box-title {
         margin: 0;
+        font-weight: 600;
     }
+    /* .profile-section .card-body .card-text{
+        font-size: 14px;
+    } */
 
 }
