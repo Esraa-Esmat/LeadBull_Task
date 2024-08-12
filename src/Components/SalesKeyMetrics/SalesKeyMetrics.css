@@ -21,3 +21,28 @@
     font-weight: 700;
     color: #027FCA;
 }
+.SalesKeyMetrics-item>div{
+    width: 25%;
+}
+
+@media (max-width:768px) {
+    .SalesKeyMetrics-container{
+        width: 95%;
+        height: 450px;
+        background-size: 50%;
+    }
+    .SalesKeyMetricsTitle{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .SalesKeyMetrics-container-title{
+        font-weight: 600;
+    }
+    .SalesKeyMetrics-item>div{
+        width: 30%;
+    }
+    .SalesKeyMetrics-item>div>div>div>ul>li{
+    font-size: 12px;
+    font-weight: 200;
+    }
+}

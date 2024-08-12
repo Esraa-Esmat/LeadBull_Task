@@ -10,7 +10,7 @@ const SalesKeyMetrics = () => {
 
             <div className="SalesKeyMetrics-container d-flex flex-column justify-content-around m-auto ">
                 <div className="SalesKeyMetrics-item d-flex justify-content-between m-auto w-100">
-                    <div className='  rounded-3 w-25'>
+                    <div className='  rounded-3'>
                         <div className=''>
                             <div className=''>
                                 <p className='text-start SalesKeyMetrics-container-title'>TIMING</p>
@@ -22,7 +22,7 @@ const SalesKeyMetrics = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='  rounded-3 w-25'>
+                    <div className='  rounded-3'>
                         <div className=''>
                             <div className=''>
                                 <p className='text-start SalesKeyMetrics-container-title'>COST</p>
@@ -37,7 +37,7 @@ const SalesKeyMetrics = () => {
                     </div>                </div>
 
                 <div className="SalesKeyMetrics-item d-flex justify-content-between m-auto w-100">
-                    <div className='  rounded-3 w-25'>
+                    <div className='  rounded-3'>
                         <div className=''>
                             <div className=''>
                                 <p className='text-start SalesKeyMetrics-container-title'>QUALITY</p>
@@ -49,7 +49,7 @@ const SalesKeyMetrics = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='  rounded-3 w-25'>
+                    <div className='  rounded-3'>
                         <div className=''>
                             <div className=''>
                                 <p className='text-start SalesKeyMetrics-container-title'>RESOURCES</p>
@@ -65,7 +65,7 @@ const SalesKeyMetrics = () => {
                 </div>
 
                 <div className="SalesKeyMetrics-item d-flex justify-content-between m-autow-100">
-                    <div className='  rounded-3 w-25'>
+                    <div className='  rounded-3'>
                         <div className=''>
                             <div className=''>
                                 <p className='text-start SalesKeyMetrics-container-title'>SCOPE</p>
@@ -78,7 +78,7 @@ const SalesKeyMetrics = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='  rounded-3 w-25'>
+                    <div className='  rounded-3'>
                         <div className=''>
                             <div className=''>
                                 <p className='text-start SalesKeyMetrics-container-title'>ENVIROMENTAL</p>
