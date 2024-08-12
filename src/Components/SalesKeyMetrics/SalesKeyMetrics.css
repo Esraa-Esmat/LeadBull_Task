@@ -29,7 +29,7 @@
     .SalesKeyMetrics-container{
         width: 95%;
         height: 450px;
-        background-size: 50%;
+        background-size: 44%;
     }
     .SalesKeyMetricsTitle{
         font-size: 25px;
@@ -37,6 +37,7 @@
     }
     .SalesKeyMetrics-container-title{
         font-weight: 600;
+        margin-bottom: 0;
     }
     .SalesKeyMetrics-item>div{
         width: 30%;
