@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap');
 
-.hero{
+.hero {
     height: fit-content;
 }
+
 .secondSectionTitle {
     font-size: 48px;
     font-weight: 700;
@@ -36,6 +37,21 @@
 
 }
 
-.arrowImage{
+.arrowImage {
     width: 80%;
+}
+
+@media (max-width:768px) {
+    .history-section {
+        max-width: 310px;
+    }
+
+    .history-title {
+        font-size: 33px;
+    }
+
+    .history-content {
+        font-size: 14px;
+        line-height: 30px;
+    }
 }
