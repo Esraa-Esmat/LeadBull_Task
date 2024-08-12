@@ -7,7 +7,7 @@ function SecondSection() {
   return (
     <section className="hero pb-5">
       <h2 className=' secondSectionTitle'>Huge Updates On-The-Way </h2>
-      <div style={{ font: 'Roboto Flex', fontSize: '20px', fontWeight: '500', width: '35%' }} className=' m-auto'>
+      <div style={{ font: 'Roboto Flex' }} className='secondSectionTitleList m-auto'>
         <li>Expanding in existing markets: Canada, UK, and US and promoting our upgraded leads services there</li>
         <li>Entering new targeted markets: UAE</li>
       </div>

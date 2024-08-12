@@ -37,13 +37,26 @@
 
 }
 
+.secondSectionTitleList {
+    font-size: 20px;
+    font-weight: 500;
+    width: 35%;
+}
+
 .arrowImage {
     width: 80%;
 }
 
 @media (max-width:768px) {
     .history-section {
-        max-width: 310px;
+        max-width: 300px;
+        padding: 10px 20px;
+
+    }
+
+    .secondSectionTitle {
+        font-size: 38px;
+        font-weight: 600;
     }
 
     .history-title {
@@ -53,5 +66,10 @@
     .history-content {
         font-size: 14px;
         line-height: 30px;
+    }
+
+    .secondSectionTitleList {
+        font-size: 18px;
+        font-weight: 400;
     }
 }
