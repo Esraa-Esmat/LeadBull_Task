@@ -17,12 +17,13 @@
     height: 160px;
     background: #027FCA;
     position: relative;
-    transform: rotate(45deg);    
+    transform: rotate(45deg);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100px 17px;
 }
+
 .diamond {
     width: 150px;
     height: 150px;
@@ -32,6 +33,7 @@
     align-items: center;
     border-radius: 17px;
 }
+
 .diamond-content {
     transform: rotate(-45deg);
     color: white;
@@ -40,46 +42,84 @@
     /* white-space: nowrap; */
     font-size: 18px;
 }
-.approachList{
+
+.approachList {
     font-size: 24px;
     font-weight: 300;
     width: 45%;
 }
-.approach-item1,.approach-item3{
+
+.approach-item1, .approach-item3 {
     width: 63%;
 }
-.approach-item2{
+
+.approach-item2 {
     width: 75%;
 }
+
 @media (max-width:768px) {
-    .approachList{
+    .approachList {
         font-size: 18px;
         font-weight: 300;
         width: 55%;
     }
 
-    .approach-container{
+    .approach-container {
         height: 390px;
-        background-size:100%;
+        background-size: 100%;
     }
-    .approach-item1,.approach-item3{
+
+    .approach-item1, .approach-item3 {
         width: 78%;
     }
-    .approach-item2{
+
+    .approach-item2 {
         width: 100%;
     }
-    .bgDiamond{
+
+    .bgDiamond {
         width: 100px;
         height: 100px;
         border-radius: 65px 15px;
     }
-    .diamond{
+
+    .diamond {
         width: 90px;
         height: 90px;
         border-radius: 15px;
 
     }
-    .diamond-content{
+
+    .diamond-content {
         font-size: 12px;
     }
+}
+
+@media (max-width: 576px) {
+    .approachList {
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .approach-container {
+        height: 256px;
+        background-size: 150%;
+    }
+
+    .bgDiamond {
+        width: 70px;
+        height: 70px;
+        border-radius: 50px 7px;
+    }
+
+    .diamond {
+        width: 65px;
+        height: 65px;
+        border-radius: 7px;
+    }
+
+    .diamond-content {
+        font-size: 8px;
+    }
+  
 }
