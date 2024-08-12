@@ -40,3 +40,46 @@
     /* white-space: nowrap; */
     font-size: 18px;
 }
+.approachList{
+    font-size: 24px;
+    font-weight: 300;
+    width: 45%;
+}
+.approach-item1,.approach-item3{
+    width: 63%;
+}
+.approach-item2{
+    width: 75%;
+}
+@media (max-width:768px) {
+    .approachList{
+        font-size: 18px;
+        font-weight: 300;
+        width: 55%;
+    }
+
+    .approach-container{
+        height: 390px;
+        background-size:100%;
+    }
+    .approach-item1,.approach-item3{
+        width: 78%;
+    }
+    .approach-item2{
+        width: 100%;
+    }
+    .bgDiamond{
+        width: 100px;
+        height: 100px;
+        border-radius: 65px 15px;
+    }
+    .diamond{
+        width: 90px;
+        height: 90px;
+        border-radius: 15px;
+
+    }
+    .diamond-content{
+        font-size: 12px;
+    }
+}

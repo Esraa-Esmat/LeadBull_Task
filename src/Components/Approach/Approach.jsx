@@ -10,12 +10,12 @@ const Approach = () => {
 
             <h2 className=' secondSectionTitle'>OUR SOLUTION APPROACH </h2>
 
-            <div style={{ font: 'Roboto Flex', fontSize: '24px', fontWeight: '300', width: '45%' }} className=' m-auto '>
+            <div className="approachList m-auto" style={{ font: 'Roboto Flex' }}>
                 <p className=' text-center'>By offering tailored telemarketing and digital marketing solutions that are designed to meet the unique needs of each client, Leadbull LLC</p>
                 <p className=' text-center'>Technologies is able to provide unparalleled value pushing its clients to handle increased estimates.</p>
             </div>
             <div className="approach-container d-flex flex-column justify-content-around m-auto ">
-                <div className="approach-item d-flex justify-content-between m-auto " style={{ width: '63%' }} >
+                <div className="approach-item approach-item1 d-flex justify-content-between m-auto " >
                     <div className='bgDiamond '>
                         <div className='diamond'>
                             <div className='diamond-content'>
@@ -31,7 +31,7 @@ const Approach = () => {
                             </div>
                         </div>
                     </div>                </div>
-                <div className="approach-item d-flex justify-content-between m-auto" style={{ width: '75%' }}>
+                <div className="approach-item approach-item2 d-flex justify-content-between m-auto" >
                     <div className='bgDiamond '>
                         <div className='diamond'>
                             <div className='diamond-content'>
@@ -49,7 +49,7 @@ const Approach = () => {
                         </div>
                     </div>
                 </div>
-                <div className="approach-item d-flex justify-content-between m-auto " style={{ width: '63%' }} >
+                <div className="approach-item approach-item3     d-flex justify-content-between m-auto " >
                     <div className='bgDiamond '>
                         <div className='diamond'>
                             <div className='diamond-content'>
