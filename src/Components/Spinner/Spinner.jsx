@@ -7,8 +7,8 @@ const Spinner = () => {
     <div className="spinner-container">
       <Triangle
         visible={true}
-        height="80"
-        width="80"
+        height="100"
+        width="100"
         color="#4fa94d"
         ariaLabel="triangle-loading"
       />
