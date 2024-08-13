@@ -56,7 +56,7 @@ const UpdatesSection = () => {
     }, [inView5]);
 
     return (
-        <Container fluid className="py-5 updates-section text-start">
+        <Container fluid className="py-5 updates-section text-md-start text-center">
             <Container>
                 <Row>
                     <Col lg={6} md={6} className='d-flex justify-content-center flex-column updates-section-left'>
