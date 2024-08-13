@@ -29,7 +29,7 @@
 
 .history-content {
     font-family: 'Roboto Flex', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: normal;
     /* word-spacing: 2px; */
     line-height: 40px;
@@ -44,7 +44,7 @@
 }
 
 .arrowImage {
-    width: 80%;
+    width: 75%;
 }
 
 @media (max-width:768px) {

@@ -21,7 +21,7 @@ const Profile = () => {
                                     </Card.Body>
                                 </Card>
                             </Col>
-                            <Col md={12} sm={12} className='mt-xl-5 mt-md-2 p-xl-5 p-md-0 valuesCard'>
+                            <Col md={12} sm={12} className='mt-xl-5 mt-md-2 p-0 valuesCard'>
                                 <Card className="text-center bg-transparent text-white profile-box">
                                     <Card.Body>
                                         <h2 className="profile-box-title fw-bold rounded-5">Values</h2>
