@@ -1,3 +1,4 @@
+/* Logo */
 #root>div>nav>div>a>img {
     width: 70%;
     height: 70%;
@@ -12,22 +13,13 @@ nav.navbar {
     transition: 0.32s ease-in-out;
 }
 
-
-
-.navBarLinks Nav.Link {
-    font-size: 60px;
-}
-
 nav.navbar .navbar-nav a.nav-link.navbar-link {
     margin: 0px 20px;
-}
-
-nav.navbar .navbar-nav a.nav-link.navbar-link {
+    font-size: 21px;
     position: relative;
     color: #fff !important;
     letter-spacing: 0.8px;
     padding: 0 22px;
-    font-size: 21px;
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link::before {
@@ -44,17 +36,6 @@ nav.navbar .navbar-nav a.nav-link.navbar-link::before {
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover::before,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active::before {
     width: 100%;
-}
-
-/* .loginBtn{
-
-    background-color: transparent;
-    border: #fff;
-} */
-
-span.navbar-text {
-    display: flex;
-    align-items: center;
 }
 
 .headerBtn {
@@ -86,16 +67,10 @@ span.navbar-text {
     width: 100%;
 }
 
-nav.navbar .navbar-toggler:active,
-nav.navbar .navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-}
 nav.navbar.scrolled {
     padding: 0px 0;
-    background-color:rgba(6, 17, 19,.8);
-  }
-
+    background-color: rgba(6, 17, 19, 0.8);
+}
 
 .BookAppointmentBtn {
     background: linear-gradient(to right, #53040B, #0088D7);
@@ -105,8 +80,8 @@ nav.navbar.scrolled {
     padding: 16px 32px;
 }
 
+/* Responsive styles */
 @media (max-width: 1377px) {
-
     nav.navbar .navbar-nav a.nav-link.navbar-link {
         font-size: 18px;
     }
@@ -118,7 +93,6 @@ nav.navbar.scrolled {
 }
 
 @media (max-width: 1235px) {
-
     nav.navbar .navbar-nav a.nav-link.navbar-link {
         font-size: 16px;
     }
@@ -129,31 +103,39 @@ nav.navbar.scrolled {
     }
 }
 
-.navbar-toggler{
-    border: 1 solid #fff !important;
+.navbar-toggler {
+    border: 1px solid #fff !important;
     background-color: #fff !important;
 }
 
-@media (max-width:768px) {
-    nav.navbar {
-        padding: 0px 0;
-        background-color:rgba(6, 17, 19,.8);
-        
-    }
-
-    .navbar-collapse{
-        margin: 100px 0px ;
-    }
-}
-
 @media (max-width: 992px) {
-
     nav.navbar .navbar-nav a.nav-link.navbar-link {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     #navbarScroll form button {
         padding: 8px 12px;
         font-size: 13px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    nav.navbar {
+        padding: 0px 0;
+        background-color: rgba(6, 17, 19, 0.8);
+    }
+
+    .navbar-collapse {
+        margin: 100px 0px;
+    }
+
+    nav.navbar .navbar-nav a.nav-link.navbar-link {
+        font-size: 13px;
+        padding: 0 15px;
+    }
+
+    #navbarScroll form button {
+        padding: 8px;
+        font-size: 12px !important;
     }
 }

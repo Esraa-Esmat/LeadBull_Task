@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useState, useEffect } from "react";
 import logo from '../../assets/images/logo.png'
 import './Header.css'
@@ -47,17 +46,14 @@ function Header() {
                         navbarScroll
                     >
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link fw-bold'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-                        <Nav.Link href="#skills" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link fw-bold'} onClick={() => onUpdateActiveLink('about')}>About Us</Nav.Link>
-                        <Nav.Link href="#projects" className={activeLink === 'services' ? 'active navbar-link' : 'navbar-link fw-bold'} onClick={() => onUpdateActiveLink('services')}>Services</Nav.Link>
+                        <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link fw-bold'} onClick={() => onUpdateActiveLink('about')}>About Us</Nav.Link>
+                        <Nav.Link href="#services" className={activeLink === 'services' ? 'active navbar-link' : 'navbar-link fw-bold'} onClick={() => onUpdateActiveLink('services')}>Services</Nav.Link>
                         <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link fw-bold'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
-
                     </Nav>
 
                     <Form className="d-flex justify-content-between">
-
-                        <Button className=' me-4 border-light bg-transparent headerBtn'>Login</Button>
-                        <Button className=' BookAppointmentBtn headerBtn'>Book an appointment  </Button>
-
+                        <Button className='me-4 border-light bg-transparent headerBtn'>Login</Button>
+                        <Button className='BookAppointmentBtn headerBtn'>Book an appointment</Button>
                     </Form>
                 </Navbar.Collapse>
             </Container>
@@ -66,4 +62,3 @@ function Header() {
 }
 
 export default Header;
-
