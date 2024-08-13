@@ -30,15 +30,15 @@ export default function Footer() {
             <MDBCol xs="12"  md="3" xl="3" className='mx-auto text-lg-start text-sm-center mb-md-0 mb-4'>
               <h5 className='mb-4 text-uppercase fw-bold'>Contact Info</h5>
               <p>
-                <MDBIcon icon="location-dot" className="me-xl-3 me-md-2" />
+                <MDBIcon icon="location-dot" className="me-xl-3 me-md-2 me-1" />
                 131 Continental Dr, Suite 305, Newark, DE 19713
               </p>
               <p>
-                <MDBIcon icon="envelope" className="me-xl-3 me-md-0" />
+                <MDBIcon icon="envelope" className="me-xl-3 me-md-0 me-1" />
                 Sales@Leadbull.net
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-xl-2 me-md-1" /> +1 484 857 2782
+                <MDBIcon icon="phone" className="me-xl-2 me-md-1 me-1" /> +1 484 857 2782
               </p>
             </MDBCol>
           </MDBRow>
